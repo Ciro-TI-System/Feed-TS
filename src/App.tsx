@@ -8,7 +8,7 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://avatars.githubusercontent.com/u/17316392?v=4',
+      avatarUrl: 'https://github.com/jakeliny.png',
       name: 'Jakeliny Gracielly',
       role: 'CTO @Rocketseat'
     },
@@ -22,7 +22,7 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://avatars.githubusercontent.com/u/2254731?v=4',
+      avatarUrl: 'https://github.com/diego3g.png',
       name: 'Diego Fernandes',
       role: 'Educator @Rocketseat'
     },
@@ -50,8 +50,8 @@ const posts = [
   {
     id: 4,
     author: {
-      avatarUrl: 'https://avatars.githubusercontent.com/u/88748637?v=4',
-      name: '	Sophia Schneider',
+      avatarUrl: 'https://github.com/lfp2.png',
+      name: '	Lavínia Paganini',
       role: 'Student @Rocketseat'
     },
     content: [
