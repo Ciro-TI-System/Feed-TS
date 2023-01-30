@@ -3,7 +3,7 @@ import styles from './Comment.module.css';
 import { ThumbsUp, Trash } from 'phosphor-react';
 import { useState } from 'react';
 
-interface CommentProps{
+interface CommentProps {
   content: string;
   onDeleteComment: (comment: string) => void;
 }
@@ -25,15 +25,15 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
   return (
     <div className={styles.comment}>
       <Avatar
-      hasBorder={false}
-      src="https://github.com/lfp2.png"
-      alt={''}
+        hasBorder={false}
+        src="https://github.com/Ciro-TI-System.png"
+        alt={''}
       />
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Lavínia Paganini</strong>
+              <strong>Ciro Batista da Silva</strong>
               <time
                 title="11 de Maio às 08:13h"
                 dateTime="2022-05-11 08:13:00">
@@ -47,7 +47,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
           <p>{content}</p>
         </div>
         <footer>
-        <button onClick={handleLikeComment}>
+          <button onClick={handleLikeComment}>
             <ThumbsUp />
             Aplaudir <span>{likeCount}</span>
           </button>
